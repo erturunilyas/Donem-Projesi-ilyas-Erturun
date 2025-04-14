@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chest spritesheet animations.png-d43553a891367e8430a2aa66dac0387d.stex"
+path="res://.import/chest spritesheet animations.png-6bd3f2428c1b78c4bd56432498005f95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Itens/chest spritesheet animations.png"
-dest_files=[ "res://.import/chest spritesheet animations.png-d43553a891367e8430a2aa66dac0387d.stex" ]
+source_file="res://Dark Forest Tileset/Itens/chest spritesheet animations.png"
+dest_files=[ "res://.import/chest spritesheet animations.png-6bd3f2428c1b78c4bd56432498005f95.stex" ]
 
 [params]
 

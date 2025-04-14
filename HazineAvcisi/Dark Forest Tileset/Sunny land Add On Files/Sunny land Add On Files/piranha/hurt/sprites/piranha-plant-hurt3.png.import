@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/piranha-plant-hurt3.png-31f11eeaef8b9e551236f182de873b8c.stex"
+path="res://.import/piranha-plant-hurt3.png-1dfdaa5e6e51d6dfb24e635a2b4d6d00.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/hurt/sprites/piranha-plant-hurt3.png"
-dest_files=[ "res://.import/piranha-plant-hurt3.png-31f11eeaef8b9e551236f182de873b8c.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/hurt/sprites/piranha-plant-hurt3.png"
+dest_files=[ "res://.import/piranha-plant-hurt3.png-1dfdaa5e6e51d6dfb24e635a2b4d6d00.stex" ]
 
 [params]
 

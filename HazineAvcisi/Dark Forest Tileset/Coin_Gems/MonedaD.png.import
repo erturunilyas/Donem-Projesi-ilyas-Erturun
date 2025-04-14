@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/MonedaD.png-203ceb82b85f373e37a0ccd149a6a155.stex"
+path="res://.import/MonedaD.png-6ff8d71ac5a6649914a1174535cc4f89.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Coin_Gems/MonedaD.png"
-dest_files=[ "res://.import/MonedaD.png-203ceb82b85f373e37a0ccd149a6a155.stex" ]
+source_file="res://Dark Forest Tileset/Coin_Gems/MonedaD.png"
+dest_files=[ "res://.import/MonedaD.png-6ff8d71ac5a6649914a1174535cc4f89.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ball4.png-22264a9f663ba1f15220d99c84fef5bf.stex"
+path="res://.import/ball4.png-879ffce7b6249e6aef008051c6805bb8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/shoot/ball sprites/ball4.png"
-dest_files=[ "res://.import/ball4.png-22264a9f663ba1f15220d99c84fef5bf.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/shoot/ball sprites/ball4.png"
+dest_files=[ "res://.import/ball4.png-879ffce7b6249e6aef008051c6805bb8.stex" ]
 
 [params]
 

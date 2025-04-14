@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/poo-goo4.png-6afe564d8df8f89f7e529595a13b0a65.stex"
+path="res://.import/poo-goo4.png-e44ea0be7d92b7f8af291bc4f0980be6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/Slug/Poo Goo/sprites/poo-goo4.png"
-dest_files=[ "res://.import/poo-goo4.png-6afe564d8df8f89f7e529595a13b0a65.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/Slug/Poo Goo/sprites/poo-goo4.png"
+dest_files=[ "res://.import/poo-goo4.png-e44ea0be7d92b7f8af291bc4f0980be6.stex" ]
 
 [params]
 

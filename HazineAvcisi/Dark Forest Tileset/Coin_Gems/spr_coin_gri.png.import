@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spr_coin_gri.png-6e2c3ef7d7cb68ebe175cef95103a262.stex"
+path="res://.import/spr_coin_gri.png-04b995d1617ee42a68f00f652ba310ab.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Coin_Gems/spr_coin_gri.png"
-dest_files=[ "res://.import/spr_coin_gri.png-6e2c3ef7d7cb68ebe175cef95103a262.stex" ]
+source_file="res://Dark Forest Tileset/Coin_Gems/spr_coin_gri.png"
+dest_files=[ "res://.import/spr_coin_gri.png-04b995d1617ee42a68f00f652ba310ab.stex" ]
 
 [params]
 

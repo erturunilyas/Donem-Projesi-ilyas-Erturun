@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Night.png-252bb4abda8cca32be75fbba9c76f1e7.stex"
+path="res://.import/Night.png-5b4d60a59ef10bb2a9d99050f395522f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Background/Night.png"
-dest_files=[ "res://.import/Night.png-252bb4abda8cca32be75fbba9c76f1e7.stex" ]
+source_file="res://Dark Forest Tileset/Background/Night.png"
+dest_files=[ "res://.import/Night.png-5b4d60a59ef10bb2a9d99050f395522f.stex" ]
 
 [params]
 

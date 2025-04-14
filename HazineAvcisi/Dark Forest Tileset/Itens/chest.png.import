@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chest.png-918b53ac47c14666bf4dc90795af60e0.stex"
+path="res://.import/chest.png-668ccacdb58d564a96e3c38eb7f3136f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Itens/chest.png"
-dest_files=[ "res://.import/chest.png-918b53ac47c14666bf4dc90795af60e0.stex" ]
+source_file="res://Dark Forest Tileset/Itens/chest.png"
+dest_files=[ "res://.import/chest.png-668ccacdb58d564a96e3c38eb7f3136f.stex" ]
 
 [params]
 

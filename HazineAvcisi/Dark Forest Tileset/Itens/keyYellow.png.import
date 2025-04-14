@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/keyYellow.png-d9bcf2c691a69d5d5d80db311e8fccbf.stex"
+path="res://.import/keyYellow.png-b26c52e6150809a1fe39289db56c3a10.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Itens/keyYellow.png"
-dest_files=[ "res://.import/keyYellow.png-d9bcf2c691a69d5d5d80db311e8fccbf.stex" ]
+source_file="res://Dark Forest Tileset/Itens/keyYellow.png"
+dest_files=[ "res://.import/keyYellow.png-b26c52e6150809a1fe39289db56c3a10.stex" ]
 
 [params]
 

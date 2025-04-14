@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hurt6.png-f6871f7f1f4326f50d60adfb7301f3dd.stex"
+path="res://.import/hurt6.png-91e330e26aceff9776aeccc7d9e5fa80.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/eagle/hurt/sprites/hurt6.png"
-dest_files=[ "res://.import/hurt6.png-f6871f7f1f4326f50d60adfb7301f3dd.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/eagle/hurt/sprites/hurt6.png"
+dest_files=[ "res://.import/hurt6.png-91e330e26aceff9776aeccc7d9e5fa80.stex" ]
 
 [params]
 

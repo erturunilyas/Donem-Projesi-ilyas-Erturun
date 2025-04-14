@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/piranha-plant-shoot2.png-36d2dece9d09d312151a2e8f1e054076.stex"
+path="res://.import/piranha-plant-shoot2.png-07750b0671f1cb010f03b975365f7c34.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/shoot/sprites/piranha-plant-shoot2.png"
-dest_files=[ "res://.import/piranha-plant-shoot2.png-36d2dece9d09d312151a2e8f1e054076.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/piranha/shoot/sprites/piranha-plant-shoot2.png"
+dest_files=[ "res://.import/piranha-plant-shoot2.png-07750b0671f1cb010f03b975365f7c34.stex" ]
 
 [params]
 

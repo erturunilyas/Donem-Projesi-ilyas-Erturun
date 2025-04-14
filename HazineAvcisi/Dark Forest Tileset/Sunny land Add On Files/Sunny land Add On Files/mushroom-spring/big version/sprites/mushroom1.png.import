@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mushroom1.png-d0049052612ce5b7dc48a3bc039bf93e.stex"
+path="res://.import/mushroom1.png-2d75cb13ef45b1a06089e88409b41609.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/mushroom-spring/big version/sprites/mushroom1.png"
-dest_files=[ "res://.import/mushroom1.png-d0049052612ce5b7dc48a3bc039bf93e.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/mushroom-spring/big version/sprites/mushroom1.png"
+dest_files=[ "res://.import/mushroom1.png-2d75cb13ef45b1a06089e88409b41609.stex" ]
 
 [params]
 

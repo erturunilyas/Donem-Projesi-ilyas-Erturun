@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Massacre Sprite Sheet.png-f6ea258f86abaec06e9e4f04d6c7a7e9.stex"
+path="res://.import/Massacre Sprite Sheet.png-db8e27a910d263b641c72e8d651ba734.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Skullwolf/Massacre Sprite Sheet.png"
-dest_files=[ "res://.import/Massacre Sprite Sheet.png-f6ea258f86abaec06e9e4f04d6c7a7e9.stex" ]
+source_file="res://Dark Forest Tileset/Skullwolf/Massacre Sprite Sheet.png"
+dest_files=[ "res://.import/Massacre Sprite Sheet.png-db8e27a910d263b641c72e8d651ba734.stex" ]
 
 [params]
 

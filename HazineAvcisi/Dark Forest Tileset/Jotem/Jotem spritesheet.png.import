@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Jotem spritesheet.png-9e906eaf576a056cdc082c2374e4880c.stex"
+path="res://.import/Jotem spritesheet.png-907176bd9004b8e711f52292acb3c2b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Jotem/Jotem spritesheet.png"
-dest_files=[ "res://.import/Jotem spritesheet.png-9e906eaf576a056cdc082c2374e4880c.stex" ]
+source_file="res://Dark Forest Tileset/Jotem/Jotem spritesheet.png"
+dest_files=[ "res://.import/Jotem spritesheet.png-907176bd9004b8e711f52292acb3c2b4.stex" ]
 
 [params]
 

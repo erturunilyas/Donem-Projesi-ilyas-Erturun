@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dirt.png-ddb89c9bea143a596f3fc0011abc4d57.stex"
+path="res://.import/dirt.png-a0df592df46fbb6d9cfbdaf83e2c88ba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Tileset/dirt.png"
-dest_files=[ "res://.import/dirt.png-ddb89c9bea143a596f3fc0011abc4d57.stex" ]
+source_file="res://Dark Forest Tileset/Tileset/dirt.png"
+dest_files=[ "res://.import/dirt.png-a0df592df46fbb6d9cfbdaf83e2c88ba.stex" ]
 
 [params]
 

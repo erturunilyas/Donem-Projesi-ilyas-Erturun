@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spr_coin_azu.png-68a815df77a869569e2a64ecf007077c.stex"
+path="res://.import/spr_coin_azu.png-01258cf25d4c32f89a1838e28d623fa5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Coin_Gems/spr_coin_azu.png"
-dest_files=[ "res://.import/spr_coin_azu.png-68a815df77a869569e2a64ecf007077c.stex" ]
+source_file="res://Dark Forest Tileset/Coin_Gems/spr_coin_azu.png"
+dest_files=[ "res://.import/spr_coin_azu.png-01258cf25d4c32f89a1838e28d623fa5.stex" ]
 
 [params]
 

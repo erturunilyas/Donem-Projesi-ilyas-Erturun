@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/attack2.png-7b2669aa38aff636a1ffc2cf7d3ba30b.stex"
+path="res://.import/attack2.png-74e0fc2a1bed431ac80611ed771cbb2b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/eagle/dive attack/sprites/attack2.png"
-dest_files=[ "res://.import/attack2.png-7b2669aa38aff636a1ffc2cf7d3ba30b.stex" ]
+source_file="res://Dark Forest Tileset/Sunny land Add On Files/Sunny land Add On Files/eagle/dive attack/sprites/attack2.png"
+dest_files=[ "res://.import/attack2.png-74e0fc2a1bed431ac80611ed771cbb2b.stex" ]
 
 [params]
 

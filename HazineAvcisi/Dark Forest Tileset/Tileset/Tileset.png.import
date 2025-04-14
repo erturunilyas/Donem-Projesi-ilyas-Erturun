@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Tileset.png-f91115a4779346a4680be087818e0bde.stex"
+path="res://.import/Tileset.png-906960e0793e9dab2691f71264938494.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Dark Forest Tileset/Tileset/Tileset.png"
-dest_files=[ "res://.import/Tileset.png-f91115a4779346a4680be087818e0bde.stex" ]
+source_file="res://Dark Forest Tileset/Tileset/Tileset.png"
+dest_files=[ "res://.import/Tileset.png-906960e0793e9dab2691f71264938494.stex" ]
 
 [params]
 
