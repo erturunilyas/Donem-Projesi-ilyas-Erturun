@@ -11,7 +11,17 @@ config_version=4
 [application]
 
 config/name="Hazine Avcisi"
+run/main_scene="res://Sahneler/AnaMenu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/fullscreen=true
+window/size/test_width=1024
+window/size/test_height=600
+window/dpi/allow_hidpi=true
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gui]
 
