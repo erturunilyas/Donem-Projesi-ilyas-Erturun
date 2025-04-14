@@ -14,6 +14,10 @@ config/name="Hazine Avcisi"
 run/main_scene="res://Sahneler/AnaMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://AutoLoad/Global.gd"
+
 [display]
 
 window/size/fullscreen=true
