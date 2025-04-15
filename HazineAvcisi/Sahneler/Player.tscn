@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=2]
+[gd_scene load_steps=60 format=2]
 
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://Dark Forest Tileset/Jotem/Jotem spritesheet.png" type="Texture" id=2]
@@ -121,7 +121,6 @@ animations = [ {
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 36.6667
-height = 20.0
 
 [sub_resource type="DynamicFont" id=3]
 size = 40
@@ -143,12 +142,24 @@ font_data = ExtResource( 4 )
 
 [sub_resource type="StyleBoxEmpty" id=36]
 
+[sub_resource type="StyleBoxEmpty" id=66]
+
+[sub_resource type="StyleBoxEmpty" id=67]
+
+[sub_resource type="StyleBoxEmpty" id=68]
+
 [sub_resource type="StyleBoxEmpty" id=37]
 
 [sub_resource type="DynamicFont" id=9]
 font_data = ExtResource( 4 )
 
 [sub_resource type="StyleBoxEmpty" id=38]
+
+[sub_resource type="StyleBoxEmpty" id=69]
+
+[sub_resource type="StyleBoxEmpty" id=70]
+
+[sub_resource type="StyleBoxEmpty" id=71]
 
 [sub_resource type="StyleBoxEmpty" id=39]
 
@@ -161,13 +172,31 @@ font_data = ExtResource( 8 )
 
 [sub_resource type="StyleBoxEmpty" id=41]
 
+[sub_resource type="StyleBoxEmpty" id=72]
+
+[sub_resource type="StyleBoxEmpty" id=73]
+
+[sub_resource type="StyleBoxEmpty" id=74]
+
 [sub_resource type="StyleBoxEmpty" id=42]
 
 [sub_resource type="StyleBoxEmpty" id=43]
 
+[sub_resource type="StyleBoxEmpty" id=75]
+
+[sub_resource type="StyleBoxEmpty" id=76]
+
+[sub_resource type="StyleBoxEmpty" id=77]
+
 [sub_resource type="StyleBoxEmpty" id=44]
 
 [sub_resource type="StyleBoxEmpty" id=45]
+
+[sub_resource type="StyleBoxEmpty" id=78]
+
+[sub_resource type="StyleBoxEmpty" id=79]
+
+[sub_resource type="StyleBoxEmpty" id=80]
 
 [sub_resource type="StyleBoxEmpty" id=46]
 
@@ -272,6 +301,9 @@ margin_bottom = 261.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = SubResource( 8 )
 custom_styles/hover = SubResource( 36 )
+custom_styles/pressed = SubResource( 66 )
+custom_styles/focus = SubResource( 67 )
+custom_styles/disabled = SubResource( 68 )
 custom_styles/normal = SubResource( 37 )
 text = "RESTART"
 
@@ -282,6 +314,9 @@ margin_bottom = 351.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = SubResource( 9 )
 custom_styles/hover = SubResource( 38 )
+custom_styles/pressed = SubResource( 69 )
+custom_styles/focus = SubResource( 70 )
+custom_styles/disabled = SubResource( 71 )
 custom_styles/normal = SubResource( 39 )
 text = "MAIN MENU
 "
@@ -342,6 +377,9 @@ margin_bottom = 216.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = SubResource( 5 )
 custom_styles/hover = SubResource( 41 )
+custom_styles/pressed = SubResource( 72 )
+custom_styles/focus = SubResource( 73 )
+custom_styles/disabled = SubResource( 74 )
 custom_styles/normal = SubResource( 42 )
 text = "NEXT LEVEL"
 
@@ -352,6 +390,9 @@ margin_bottom = 306.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = SubResource( 8 )
 custom_styles/hover = SubResource( 43 )
+custom_styles/pressed = SubResource( 75 )
+custom_styles/focus = SubResource( 76 )
+custom_styles/disabled = SubResource( 77 )
 custom_styles/normal = SubResource( 44 )
 text = "RESTART"
 
@@ -362,6 +403,9 @@ margin_bottom = 396.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = SubResource( 9 )
 custom_styles/hover = SubResource( 45 )
+custom_styles/pressed = SubResource( 78 )
+custom_styles/focus = SubResource( 79 )
+custom_styles/disabled = SubResource( 80 )
 custom_styles/normal = SubResource( 46 )
 text = "MAIN MENU
 "

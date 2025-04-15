@@ -17,39 +17,29 @@ font_data = ExtResource( 2 )
 size = 50
 font_data = ExtResource( 2 )
 
-[sub_resource type="StyleBoxFlat" id=5]
-bg_color = Color( 0.380392, 0.239216, 0.388235, 1 )
+[sub_resource type="StyleBoxEmpty" id=17]
 
-[sub_resource type="StyleBoxFlat" id=6]
-bg_color = Color( 0.380392, 0.239216, 0.388235, 1 )
+[sub_resource type="StyleBoxEmpty" id=18]
 
-[sub_resource type="StyleBoxFlat" id=7]
-bg_color = Color( 0.380392, 0.239216, 0.388235, 1 )
+[sub_resource type="StyleBoxEmpty" id=19]
 
-[sub_resource type="StyleBoxFlat" id=8]
-bg_color = Color( 0.380392, 0.239216, 0.388235, 1 )
+[sub_resource type="StyleBoxEmpty" id=20]
 
-[sub_resource type="StyleBoxFlat" id=9]
-bg_color = Color( 0.380392, 0.239216, 0.388235, 1 )
+[sub_resource type="StyleBoxEmpty" id=16]
 
 [sub_resource type="DynamicFont" id=10]
 size = 50
 font_data = ExtResource( 2 )
 
-[sub_resource type="StyleBoxFlat" id=11]
-bg_color = Color( 0.247059, 0.215686, 0.341176, 1 )
+[sub_resource type="StyleBoxEmpty" id=21]
 
-[sub_resource type="StyleBoxFlat" id=12]
-bg_color = Color( 0.247059, 0.215686, 0.341176, 1 )
+[sub_resource type="StyleBoxEmpty" id=22]
 
-[sub_resource type="StyleBoxFlat" id=13]
-bg_color = Color( 0.247059, 0.215686, 0.341176, 1 )
+[sub_resource type="StyleBoxEmpty" id=23]
 
-[sub_resource type="StyleBoxFlat" id=14]
-bg_color = Color( 0.247059, 0.215686, 0.341176, 1 )
+[sub_resource type="StyleBoxEmpty" id=24]
 
-[sub_resource type="StyleBoxFlat" id=15]
-bg_color = Color( 0.247059, 0.215686, 0.341176, 1 )
+[sub_resource type="StyleBoxEmpty" id=25]
 
 [node name="AnaMenu" type="Control"]
 anchor_right = 1.0
@@ -104,11 +94,11 @@ grow_horizontal = 2
 grow_vertical = 2
 rect_min_size = Vector2( 0, 75 )
 custom_fonts/font = SubResource( 2 )
-custom_styles/hover = SubResource( 5 )
-custom_styles/pressed = SubResource( 6 )
-custom_styles/focus = SubResource( 7 )
-custom_styles/disabled = SubResource( 8 )
-custom_styles/normal = SubResource( 9 )
+custom_styles/hover = SubResource( 17 )
+custom_styles/pressed = SubResource( 18 )
+custom_styles/focus = SubResource( 19 )
+custom_styles/disabled = SubResource( 20 )
+custom_styles/normal = SubResource( 16 )
 text = "PLAY"
 
 [node name="btn_exit" type="Button" parent="Panel/HBoxContainer/VBoxContainer"]
@@ -117,11 +107,11 @@ margin_right = 648.0
 margin_bottom = 427.0
 rect_pivot_offset = Vector2( 419, -147 )
 custom_fonts/font = SubResource( 10 )
-custom_styles/hover = SubResource( 11 )
-custom_styles/pressed = SubResource( 12 )
-custom_styles/focus = SubResource( 13 )
-custom_styles/disabled = SubResource( 14 )
-custom_styles/normal = SubResource( 15 )
+custom_styles/hover = SubResource( 21 )
+custom_styles/pressed = SubResource( 22 )
+custom_styles/focus = SubResource( 23 )
+custom_styles/disabled = SubResource( 24 )
+custom_styles/normal = SubResource( 25 )
 text = "EXIT"
 
 [connection signal="pressed" from="Panel/HBoxContainer/VBoxContainer/btn_play" to="." method="_on_btn_play_pressed"]
