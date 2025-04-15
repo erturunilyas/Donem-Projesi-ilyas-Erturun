@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Dark Forest Tileset/Itens/chest.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/chest.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 15, 11.5 )
@@ -90,6 +91,7 @@ tracks/1/keys = {
 extents = Vector2( 64.5, 8.5 )
 
 [node name="chest" type="Area2D"]
+script = ExtResource( 2 )
 
 [node name="open" type="Sprite" parent="."]
 texture = ExtResource( 1 )
@@ -103,9 +105,11 @@ anims/RESET = SubResource( 3 )
 anims/close = SubResource( 4 )
 anims/open = SubResource( 5 )
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="TriggerArea" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-visible = false
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TriggerArea"]
 position = Vector2( -0.5, -8.5 )
 shape = SubResource( 2 )
+
+[connection signal="body_entered" from="." to="." method="_on_chest_body_entered"]
+[connection signal="body_entered" from="TriggerArea" to="." method="_on_TriggerArea_body_entered"]
