@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://Sahneler/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Dark Forest Tileset/Background/Dark Tree.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Dark Forest Tileset/Background/Far Forest.png" type="Texture" id=4]
 [ext_resource path="res://Dark Forest Tileset/Tileset/dirt.png" type="Texture" id=5]
 [ext_resource path="res://Dark Forest Tileset/Tileset/Tileset.png" type="Texture" id=6]
+[ext_resource path="res://Sahneler/coin.tscn" type="PackedScene" id=7]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 3 )
@@ -450,6 +451,7 @@ custom_styles/panel = SubResource( 3 )
 tile_set = SubResource( 6 )
 cell_size = Vector2( 16, 16 )
 format = 1
+tile_data = PoolIntArray( 1310739, 0, 0, 1310740, 0, 0, 1310741, 0, 0, 1310742, 0, 0, 1310743, 0, 0, 1376269, 0, 0, 1376270, 0, 0, 1376271, 0, 0, 1376272, 0, 0, 1376273, 0, 0, 1376274, 0, 0, 1376275, 0, 0, 1376279, 0, 0, 1376280, 0, 0, 1376281, 0, 0, 1441818, 0, 0, 1441819, 0, 0 )
 
 [node name="TileMap2" type="TileMap" parent="Ground"]
 position = Vector2( 0, -1 )
@@ -472,5 +474,9 @@ tile_set = SubResource( 17 )
 format = 1
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-visible = false
 position = Vector2( 277, 253 )
+
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="coin" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 338, 300 )
