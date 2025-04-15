@@ -7,97 +7,78 @@
 [ext_resource path="res://Assets/Kenney-Fonts/Fonts/Kenney Mini Square Mono.ttf" type="DynamicFontData" id=8]
 
 [sub_resource type="AtlasTexture" id=47]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 0, 640, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=48]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 128, 640, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=49]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 256, 640, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=50]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 384, 640, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=51]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 512, 640, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=52]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 0, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=53]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 128, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=54]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 256, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=55]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 384, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=56]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 512, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=57]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 640, 256, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=58]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 0, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=59]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 128, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=60]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 256, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=61]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 384, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=62]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 512, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=63]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 640, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=64]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 768, 384, 128, 128 )
 
 [sub_resource type="AtlasTexture" id=65]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 896, 384, 128, 128 )
 
@@ -201,7 +182,7 @@ font_data = ExtResource( 8 )
 [sub_resource type="StyleBoxEmpty" id=46]
 
 [node name="Player" type="KinematicBody2D"]
-scale = Vector2( 0.3, 0.3 )
+scale = Vector2( 0.501, 0.501 )
 z_index = 5
 script = ExtResource( 1 )
 
@@ -217,6 +198,7 @@ animation = "walk"
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2( 10, 26.6667 )
 shape = SubResource( 1 )
 

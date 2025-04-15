@@ -493,5 +493,5 @@ position = Vector2( 365, 297 )
 [node name="Chest" type="Node2D" parent="."]
 
 [node name="chest" parent="Chest" instance=ExtResource( 9 )]
-position = Vector2( 406, 336 )
+position = Vector2( 239, 332 )
 z_index = -1
