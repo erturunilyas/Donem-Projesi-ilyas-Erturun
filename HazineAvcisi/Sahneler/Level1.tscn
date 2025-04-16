@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://Sahneler/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Dark Forest Tileset/Background/Dark Tree.png" type="Texture" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Sahneler/spike.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Sahneler/mushroom.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Dark Forest Tileset/Itens/sign.png" type="Texture" id=12]
+[ext_resource path="res://Sahneler/skulwolf.tscn" type="PackedScene" id=13]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 3 )
@@ -546,6 +547,11 @@ z_index = -1
 [node name="mushroom" parent="Mushrooms" instance=ExtResource( 11 )]
 position = Vector2( 474, 174 )
 scale = Vector2( 0.671, 0.671 )
+
+[node name="Skulwolfs" type="Node2D" parent="."]
+
+[node name="skulwolf" parent="Skulwolfs" instance=ExtResource( 13 )]
+position = Vector2( 363, 287 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 238, 93 )
