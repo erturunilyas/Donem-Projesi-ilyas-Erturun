@@ -497,8 +497,8 @@ position = Vector2( 365, 297 )
 position = Vector2( 239, 332 )
 z_index = -1
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Spikes" type="Node2D" parent="."]
 
-[node name="spike" parent="Node2D" instance=ExtResource( 10 )]
+[node name="spike" parent="Spikes" instance=ExtResource( 10 )]
 position = Vector2( 351, 321 )
 z_index = -1
