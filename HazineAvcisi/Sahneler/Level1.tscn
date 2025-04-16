@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=43 format=2]
 
 [ext_resource path="res://Sahneler/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Dark Forest Tileset/Background/Dark Tree.png" type="Texture" id=2]
@@ -10,7 +10,6 @@
 [ext_resource path="res://Sahneler/key.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Sahneler/chest.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Sahneler/spike.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Sahneler/mushroom.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Dark Forest Tileset/Itens/sign.png" type="Texture" id=12]
 [ext_resource path="res://Sahneler/skulwolf.tscn" type="PackedScene" id=13]
 
@@ -637,13 +636,13 @@ tile_data = PoolIntArray( 1376268, 5, 1, 1376297, 2, 0, 1376298, 2, 0, 1376299, 
 tile_set = SubResource( 14 )
 cell_size = Vector2( 48, 16 )
 format = 1
-tile_data = PoolIntArray( 1048588, 1, 0, 1376260, 0, 0, 1376261, 0, 0, 1376263, 1, 0, 1376265, 1, 0, 1376270, 0, 0, 1376273, 0, 0, 1376274, 0, 0, 1703940, 1610612736, 0, 1703941, 1610612736, 0 )
+tile_data = PoolIntArray( 851982, 1, 0, 983052, 0, 0, 1376260, 0, 0, 1376261, 0, 0, 1376263, 1, 0, 1376265, 1, 0, 1376270, 0, 0, 1376273, 0, 0, 1376274, 0, 0, 1703940, 1610612736, 0, 1703941, 1610612736, 0 )
 
 [node name="TileMap5" type="TileMap" parent="Ground"]
 tile_set = SubResource( 17 )
 cell_size = Vector2( 16, 16 )
 format = 1
-tile_data = PoolIntArray( 1376273, 0, 0, 1376297, 0, 0, 1376301, 0, 0, 1376313, 0, 0, 1441804, 1, 0, 1441809, 1, 0, 1441831, 0, 0, 1441832, 0, 0, 1441833, 1, 0, 1441837, 1, 0, 1441843, 1610612737, 0, 1441844, 1, 0, 1441845, 1, 0, 1441846, 1, 0, 1441847, 1, 0, 1441848, 1, 0, 1441849, 1610612737, 0, 1507340, 1, 0, 1507345, 1, 0, 1507365, 0, 0, 1507366, 0, 0, 1507367, 1, 0, 1507368, 1, 0, 1507369, 1, 0, 1507373, 1, 0, 1507379, 1610612737, 0, 1507380, 1, 0, 1507383, 1, 0, 1507384, 1, 0, 1507385, 1610612737, 0, 1572876, 1, 0, 1572881, 1, 0, 1572900, 0, 0, 1572901, 1, 0, 1572902, 1, 0, 1572903, 1, 0, 1572909, 1, 0, 1572915, 1610612737, 0, 1572920, 1, 0, 1572921, 1610612737, 0, 1638412, 1, 0, 1638417, 1610612737, 0, 1638418, 1, 0, 1638419, 1, 0, 1638420, 1, 0, 1638421, 1, 0, 1638422, 1, 0, 1638423, 1, 0, 1638424, 1, 0, 1638425, 1, 0, 1638426, 1, 0, 1638427, 1, 0, 1638428, 1, 0, 1638429, 1, 0, 1638430, 1, 0, 1638431, 1, 0, 1638432, 1, 0, 1638433, 1, 0, 1638434, 1, 0, 1638435, 1, 0, 1638436, 1, 0, 1638437, 1, 0, 1638445, 1, 0, 1638451, 1610612737, 0, 1638457, 1610612737, 0, 1703981, 1, 0, 1703987, 1610612737, 0, 1703993, 1610612737, 0, 1769517, 1, 0, 1769523, 1610612737, 0, 1769529, 1610612737, 0, 1835053, 1, 0, 1835059, 1610612737, 0, 1835065, 1610612737, 0 )
+tile_data = PoolIntArray( 786463, 0, 0, 1376273, 0, 0, 1376297, 0, 0, 1376301, 0, 0, 1376313, 0, 0, 1441804, 1, 0, 1441809, 1, 0, 1441831, 0, 0, 1441832, 0, 0, 1441833, 1, 0, 1441837, 1, 0, 1441843, 1610612737, 0, 1441844, 1, 0, 1441845, 1, 0, 1441846, 1, 0, 1441847, 1, 0, 1441848, 1, 0, 1441849, 1610612737, 0, 1507340, 1, 0, 1507345, 1, 0, 1507365, 0, 0, 1507366, 0, 0, 1507367, 1, 0, 1507368, 1, 0, 1507369, 1, 0, 1507373, 1, 0, 1507379, 1610612737, 0, 1507380, 1, 0, 1507383, 1, 0, 1507384, 1, 0, 1507385, 1610612737, 0, 1572876, 1, 0, 1572881, 1, 0, 1572900, 0, 0, 1572901, 1, 0, 1572902, 1, 0, 1572903, 1, 0, 1572909, 1, 0, 1572915, 1610612737, 0, 1572920, 1, 0, 1572921, 1610612737, 0, 1638412, 1, 0, 1638417, 1610612737, 0, 1638418, 1, 0, 1638419, 1, 0, 1638420, 1, 0, 1638421, 1, 0, 1638422, 1, 0, 1638423, 1, 0, 1638424, 1, 0, 1638425, 1, 0, 1638426, 1, 0, 1638427, 1, 0, 1638428, 1, 0, 1638429, 1, 0, 1638430, 1, 0, 1638431, 1, 0, 1638432, 1, 0, 1638433, 1, 0, 1638434, 1, 0, 1638435, 1, 0, 1638436, 1, 0, 1638437, 1, 0, 1638445, 1, 0, 1638451, 1610612737, 0, 1638457, 1610612737, 0, 1703981, 1, 0, 1703987, 1610612737, 0, 1703993, 1610612737, 0, 1769517, 1, 0, 1769523, 1610612737, 0, 1769529, 1610612737, 0, 1835053, 1, 0, 1835059, 1610612737, 0, 1835065, 1610612737, 0 )
 
 [node name="TileMap6" type="TileMap" parent="Ground"]
 scale = Vector2( 1.301, 1.301 )
@@ -651,7 +650,7 @@ z_index = -1
 tile_set = SubResource( 19 )
 cell_size = Vector2( 5, 5 )
 format = 1
-tile_data = PoolIntArray( 3080234, 0, 0 )
+tile_data = PoolIntArray( 3080234, 0, 0, 3080317, 0, 0 )
 
 [node name="TileMap7" type="TileMap" parent="Ground"]
 tile_set = SubResource( 30 )
@@ -662,17 +661,33 @@ tile_data = PoolIntArray( 1376265, 0, 0, 1376266, 0, 0, 1376267, 0, 0, 1376268, 
 [node name="Coins" type="Node2D" parent="."]
 
 [node name="coin" parent="Coins" instance=ExtResource( 7 )]
-position = Vector2( 388, 193 )
+position = Vector2( 362, 322 )
+
+[node name="coin2" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 458, 326 )
+
+[node name="coin3" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 671, 324 )
+
+[node name="coin6" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 600, 229 )
+
+[node name="coin4" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 683, 324 )
+
+[node name="coin5" parent="Coins" instance=ExtResource( 7 )]
+position = Vector2( 695, 324 )
 
 [node name="Keys" type="Node2D" parent="."]
 
 [node name="key" parent="Keys" instance=ExtResource( 8 )]
-position = Vector2( 600, 248 )
+position = Vector2( 503, 184 )
+scale = Vector2( 1.234, 1.234 )
 
 [node name="Chest" type="Node2D" parent="."]
 
 [node name="chest" parent="Chest" instance=ExtResource( 9 )]
-position = Vector2( 383, 142 )
+position = Vector2( 878, 337 )
 z_index = -1
 
 [node name="Spikes" type="Node2D" parent="."]
@@ -699,14 +714,10 @@ z_index = -1
 
 [node name="Mushrooms" type="Node2D" parent="."]
 
-[node name="mushroom" parent="Mushrooms" instance=ExtResource( 11 )]
-position = Vector2( 474, 174 )
-scale = Vector2( 0.671, 0.671 )
-
 [node name="Skulwolfs" type="Node2D" parent="."]
 
 [node name="skulwolf" parent="Skulwolfs" instance=ExtResource( 13 )]
-position = Vector2( 607, 144 )
+position = Vector2( 705, 177 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 238, 93 )

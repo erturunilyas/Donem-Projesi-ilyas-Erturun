@@ -218,10 +218,11 @@ drag_margin_bottom = 0.27
 editor_draw_drag_margin = true
 
 [node name="Skorumuz" type="Label" parent="."]
-margin_left = -26.6667
-margin_top = -128.0
-margin_right = 36.3333
-margin_bottom = -75.0
+margin_left = -15.9681
+margin_top = -113.772
+margin_right = 47.0319
+margin_bottom = -60.7724
+rect_scale = Vector2( 0.678, 0.678 )
 custom_fonts/font = SubResource( 3 )
 text = "0"
 align = 1
