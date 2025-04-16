@@ -624,7 +624,7 @@ z_index = -1
 tile_set = SubResource( 11 )
 cell_size = Vector2( 48, 11 )
 format = 1
-tile_data = PoolIntArray( 1966084, 0, 0 )
+tile_data = PoolIntArray( 1441804, 536870912, 0, 1966084, 0, 0, 1966087, 0, 0, 1966089, 536870912, 0, 1966094, 0, 0, 2097165, 536870912, 0 )
 
 [node name="TileMap3" type="TileMap" parent="Ground"]
 tile_set = SubResource( 12 )
