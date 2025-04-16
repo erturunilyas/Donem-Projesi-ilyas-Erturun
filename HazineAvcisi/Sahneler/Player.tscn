@@ -100,7 +100,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 36.6667
+radius = 29.9401
 
 [sub_resource type="DynamicFont" id=3]
 size = 40
@@ -181,30 +181,34 @@ font_data = ExtResource( 4 )
 [sub_resource type="StyleBoxEmpty" id=46]
 
 [node name="Player" type="KinematicBody2D"]
+position = Vector2( 0, 25 )
 scale = Vector2( 0.501, 0.501 )
 z_index = 5
 script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
+visible = false
 position = Vector2( 3.07292, -8.69348 )
 scale = Vector2( 1.609, 1.6 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 6.66667, -93.3333 )
-scale = Vector2( 2.57604, 2.57604 )
+position = Vector2( 3.99202, -131.737 )
+scale = Vector2( 2.4, 2.4 )
 frames = SubResource( 10 )
 animation = "walk"
 playing = true
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2( 10, 26.6667 )
+position = Vector2( 7.98403, -19.9601 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 3.33333, -133.333 )
+position = Vector2( 9.98004, -51.8962 )
 current = true
-zoom = Vector2( 0.5, 0.5 )
+zoom = Vector2( 0.405, 0.405 )
 drag_margin_h_enabled = true
 smoothing_enabled = true
 smoothing_speed = 3.0
@@ -222,6 +226,9 @@ custom_fonts/font = SubResource( 3 )
 text = "0"
 align = 1
 valign = 1
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="UI" type="CanvasLayer" parent="."]
 pause_mode = 2
